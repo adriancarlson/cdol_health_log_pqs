@@ -25,6 +25,13 @@
             <column column="u_cdol_health_log.total_systems_score" description="Total Systems Score">health_log.total_systems_score</column>
             <column column="u_cdol_health_log.systems_score" description="Systems Score">health_log.systems_score</column>
             <column column="u_cdol_health_log.notes" description="Notes">health_log.notes</column>
+            <column column="u_cdol_health_log.notes_memory" description="Memory Notes">health_log.notes_memory</column>
+            <column column="u_cdol_health_log.notes_bess" description="BESS Notes">health_log.notes_bess</column>
+            <column column="u_cdol_health_log.notes_voms" description="VOMS Notes">health_log.notes_voms</column>
+            <column column="u_cdol_health_log.notes_s" description="S Notes">health_log.notes_s</column>
+            <column column="u_cdol_health_log.notes_o" description="O Notes">health_log.notes_o</column>
+            <column column="u_cdol_health_log.notes_a" description="A Notes">health_log.notes_a</column>
+            <column column="u_cdol_health_log.notes_p" description="P Notes">health_log.notes_p</column>
             <column column="u_cdol_health_log.schoolid" description="School ID">health_log.schoolid</column>
             <column column="u_cdol_health_log.yearid" description="Year ID">health_log.yearid</column>
         </columns>
@@ -47,6 +54,13 @@
                     u_cdol_health_log.total_systems_score,
                     u_cdol_health_log.systems_score,
                     u_cdol_health_log.notes,
+                    u_cdol_health_log.notes_memory,
+                    u_cdol_health_log.notes_bess,
+                    u_cdol_health_log.notes_voms,
+                    u_cdol_health_log.notes_s,
+                    u_cdol_health_log.notes_o,
+                    u_cdol_health_log.notes_a,
+                    u_cdol_health_log.notes_p,
                     u_cdol_health_log.schoolid,
                     u_cdol_health_log.yearid
                 FROM 
