@@ -21,6 +21,7 @@
             <column column="u_cdol_health_log.time_left" description="Time Left">health_log.time_left</column>
             <column column="u_cdol_health_log.users_dcid" description="User DCID">health_log.users_dcid</column>
             <column column="u_cdol_health_log.injury_site" description="Injury Site">health_log.injury_site</column>
+            <column column="u_cdol_health_log.injury_type" description="Injury Type">health_log.injury_type</column>
             <column column="u_cdol_health_log.injury_date" description="Injury Date">health_log.injury_date</column>
             <column column="u_cdol_health_log.total_systems_score" description="Total Systems Score">health_log.total_systems_score</column>
             <column column="u_cdol_health_log.systems_score" description="Systems Score">health_log.systems_score</column>
@@ -50,6 +51,7 @@
                     u_cdol_health_log.time_left,
                     u_cdol_health_log.users_dcid,
                     u_cdol_health_log.injury_site,
+                    u_cdol_health_log.injury_type,
                     u_cdol_health_log.injury_date,
                     u_cdol_health_log.total_systems_score,
                     u_cdol_health_log.systems_score,
