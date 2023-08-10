@@ -18,7 +18,7 @@
             <column column="u_cdol_health_log.complaint" description="Complaint">health_log.complaint</column>
             <column column="u_cdol_health_log.treatment" description="Treatment">health_log.treatment</column>
             <column column="u_cdol_health_log.destination" description="Destination">health_log.destination</column>
-            <column column="u_cdol_health_log.time_left" description="Time Left">health_log.time_left</column>
+            <column column="u_cdol_health_log.left_time" description="Time Left">health_log.left_time</column>
             <column column="u_cdol_health_log.users_dcid" description="User DCID">health_log.users_dcid</column>
             <column column="users.title" description="User Title">health_log.users_title</column>
             <column column="users.first_name" description="User First Name">health_log.first_name</column>
@@ -51,7 +51,7 @@
                     u_cdol_health_log.complaint,
                     u_cdol_health_log.treatment,
                     u_cdol_health_log.destination,
-                    u_cdol_health_log.time_left,
+                    u_cdol_health_log.left_time,
                     u_cdol_health_log.users_dcid,
                     users.title,
                     users.first_name,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://plugin.powerschool.pearson.com"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd" name="CDOL Health Log PQs" version="0.12" description="CDOL Health Log PQs and Data Access">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd" name="CDOL Health Log PQs" version="0.14" description="CDOL Health Log PQs and Data Access">
 	<oauth></oauth>
 	<access_request>
 		<field table="students" field="id" access="ViewOnly" />
@@ -18,7 +18,7 @@
 		<field table="u_cdol_health_log" field="complaint" access="FullAccess" />
 		<field table="u_cdol_health_log" field="treatment" access="FullAccess" />
 		<field table="u_cdol_health_log" field="destination" access="FullAccess" />
-		<field table="u_cdol_health_log" field="time_left" access="FullAccess" />
+		<field table="u_cdol_health_log" field="left_time" access="FullAccess" />
 		<field table="u_cdol_health_log" field="users_dcid" access="FullAccess" />
 		<field table="u_cdol_health_log" field="injury_site" access="FullAccess" />
 		<field table="u_cdol_health_log" field="injury_type" access="FullAccess" />
