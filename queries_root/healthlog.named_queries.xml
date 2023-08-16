@@ -82,7 +82,7 @@
                     AND (u_cdol_health_log.schoolid = :curSchoolID
                                     or 
                                 :curSchoolID = 0)
-                    AND u_cdol_health_log.log_type = :logType or :logType = 'All'
+                    AND (:logType = 'All' OR u_cdol_health_log.log_type = :logType)
                     AND (students.id = :curStudentID
                                     or 
                                 :curStudentID = 0)
