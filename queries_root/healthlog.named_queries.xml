@@ -3,7 +3,7 @@
         <summary>CDOL: Health Log</summary>
         <description>List all custom health logs</description>
         <args>
-            <arg name="curStudentID" column="u_cdol_health_log.studentsdcid" required="true" description="Current Student ID" default="0" />
+            <arg name="curStudentDCID" column="u_cdol_health_log.studentsdcid" required="true" description="Current Student ID" default="0" />
             <arg name="curSchoolID" column="u_cdol_health_log.schoolid" required="true" description="Current School ID" default="~(curschoolid)" />
             <arg name="yearID" column="u_cdol_health_log.yearid" required="true" description="Current Year ID" default="~(curyearid)" />
             <arg name="logType" column="u_cdol_health_log.log_type" description="Log Type" default="All" />
@@ -83,9 +83,9 @@
                                     or 
                                 :curSchoolID = 0)
                     AND (:logType = 'All' OR u_cdol_health_log.log_type = :logType)
-                    AND (students.id = :curStudentID
+                    AND (students.dcid = :curStudentDCID
                                     or 
-                                :curStudentID = 0)
+                                :curStudentDCID = 0)
                 ORDER BY 
                     u_cdol_health_log.log_date DESC		
         ]]>

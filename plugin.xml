@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://plugin.powerschool.pearson.com"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd" name="CDOL Health Log PQs" version="23.8" description="CDOL Health Log PQs and Data Access">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd" name="CDOL Health Log PQs" version="23.8.1" description="CDOL Health Log PQs and Data Access">
 	<oauth></oauth>
 	<access_request>
 		<field table="students" field="id" access="ViewOnly" />
