@@ -1,6 +1,7 @@
 <permission_mappings>
 	<permission name="/admin/students/health_log/health_log.html">
 		<implies allow="post">/ws/schema/query/net.cdolinc.health.healthLog.logs</implies>
+		<implies allow="post">/ws/schema/query/net.cdolinc.health.healthLog.staff</implies>
 	</permission>
 	<permission name='/admin/students/health_log/health_log.html'>
 		<implies allow="post">/ws/schema/table/u_cdol_health_log</implies>

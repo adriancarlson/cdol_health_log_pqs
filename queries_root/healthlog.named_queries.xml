@@ -91,5 +91,36 @@
         ]]>
         </sql>
     </query>
-
+    <query name="net.cdolinc.health.healthLog.staff" flattened="true">
+        <summary>CDOL: Health Log Staff</summary>
+        <description>List Staff</description>
+        <args>
+            <arg name="curSchoolID" column="u_cdol_health_log.schoolid" required="true" description="Current School ID" default="~(curschoolid)" />
+        </args>
+        <columns>
+            <column column="users.dcid">dcid</column>
+            <column column="users.first_name">first_name</column>
+            <column column="users.last_name">last_name</column>
+        </columns>
+        <sql>
+            <![CDATA[
+				SELECT
+                    users.dcid,
+                    users.first_name,
+                    users.last_name
+                FROM
+                    schoolstaff
+                    INNER JOIN users ON users.dcid = schoolstaff.users_dcid
+                WHERE
+                    schoolstaff.status = 1
+                    AND (
+                        schoolstaff.schoolid = :curSchoolID
+                        OR :curSchoolID = 0
+                    )
+                ORDER BY
+                    users.last_name,
+                    users.first_name
+			]]>
+        </sql>
+    </query>
 </queries>
