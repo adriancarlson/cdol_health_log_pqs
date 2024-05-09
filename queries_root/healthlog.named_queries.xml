@@ -38,6 +38,8 @@
             <column column="u_cdol_health_log.notes_p" description="P Notes">health_log.notes_p</column>
             <column column="u_cdol_health_log.schoolid" description="School ID">health_log.schoolid</column>
             <column column="u_cdol_health_log.yearid" description="Year ID">health_log.yearid</column>
+            <column column="u_cdol_health_log.contact" description="Contact">health_log.contact</column>
+            <column column="u_cdol_health_log.conversation_type" description="Conversation Type">health_log.conversation_type</column>
         </columns>
         <sql>
             <![CDATA[
@@ -70,7 +72,9 @@
                     u_cdol_health_log.notes_a,
                     u_cdol_health_log.notes_p,
                     u_cdol_health_log.schoolid,
-                    u_cdol_health_log.yearid
+                    u_cdol_health_log.yearid,
+                    u_cdol_health_log.contact,
+                    u_cdol_health_log.conversation_type
                 FROM 
                     u_cdol_health_log
                 INNER JOIN students 

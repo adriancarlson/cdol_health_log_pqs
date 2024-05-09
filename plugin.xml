@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://plugin.powerschool.pearson.com"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd" name="CDOL Health Log PQs" version="23.8.2" description="CDOL Health Log PQs and Data Access">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd" name="CDOL Health Log PQs" version="24.5" description="CDOL Health Log PQs and Data Access">
 	<oauth></oauth>
 	<access_request>
 		<field table="students" field="id" access="ViewOnly" />
@@ -38,6 +38,8 @@
 		<field table="u_cdol_health_log" field="notes_p" access="FullAccess" />
 		<field table="u_cdol_health_log" field="schoolid" access="FullAccess" />
 		<field table="u_cdol_health_log" field="yearid" access="FullAccess" />
+		<field table="u_cdol_health_log" field="contact" access="FullAccess" />
+		<field table="u_cdol_health_log" field="conversation_type" access="FullAccess" />
 	</access_request>
 	<publisher name="Adrian Carlson">
 		<contact email="adrian-carlson@cdolinc.net" />
