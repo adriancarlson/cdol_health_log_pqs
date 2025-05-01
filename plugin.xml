@@ -48,6 +48,8 @@
 		<field table="u_cdol_health_log" field="bloodsugar" access="FullAccess" />
 		<field table="u_cdol_health_log" field="schoolid" access="FullAccess" />
 		<field table="u_cdol_health_log" field="yearid" access="FullAccess" />
+		<field table="u_cdol_health_log" field="contact" access="FullAccess" />
+		<field table="u_cdol_health_log" field="conversation_type" access="FullAccess" />
 	</access_request>
 	<publisher name="Adrian Carlson">
 		<contact email="adrian-carlson@cdolinc.net" />
