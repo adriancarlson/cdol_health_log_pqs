@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin name="CDOL Health Log PQs" version="24.5.0.0" description="CDOL Health Log PQs and Data Access"
+<plugin name="CDOL Health Log PQs" version="24.5" description="CDOL Health Log PQs and Data Access"
 	xmlns="http://plugin.powerschool.pearson.com"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd">
 	<oauth></oauth>
