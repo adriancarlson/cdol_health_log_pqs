@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://plugin.powerschool.pearson.com"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd" name="CDOL Health Log PQs" version="23.8.2" description="CDOL Health Log PQs and Data Access">
+<plugin name="CDOL Health Log PQs" version="24.5.0.0" description="CDOL Health Log PQs and Data Access"
+	xmlns="http://plugin.powerschool.pearson.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd">
 	<oauth></oauth>
 	<access_request>
 		<field table="students" field="id" access="ViewOnly" />
@@ -36,6 +37,15 @@
 		<field table="u_cdol_health_log" field="notes_o" access="FullAccess" />
 		<field table="u_cdol_health_log" field="notes_a" access="FullAccess" />
 		<field table="u_cdol_health_log" field="notes_p" access="FullAccess" />
+		<field table="u_cdol_health_log" field="contact" access="FullAccess" />
+		<field table="u_cdol_health_log" field="conversation_type" access="FullAccess" />
+		<field table="u_cdol_health_log" field="temperature" access="FullAccess" />
+		<field table="u_cdol_health_log" field="respiratoryrate" access="FullAccess" />
+		<field table="u_cdol_health_log" field="pulserate" access="FullAccess" />
+		<field table="u_cdol_health_log" field="oxygensaturation" access="FullAccess" />
+		<field table="u_cdol_health_log" field="bloodpressuresystolic" access="FullAccess" />
+		<field table="u_cdol_health_log" field="bloodpressurediastolic" access="FullAccess" />
+		<field table="u_cdol_health_log" field="bloodsugar" access="FullAccess" />
 		<field table="u_cdol_health_log" field="schoolid" access="FullAccess" />
 		<field table="u_cdol_health_log" field="yearid" access="FullAccess" />
 	</access_request>
